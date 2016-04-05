@@ -1,0 +1,43 @@
+{
+    // package name
+    "name": "bloomforyou/yii2-ckeditor",
+
+    // package type
+    "type": "yii2-ckeditor",
+
+    "description": "ckeditor 编辑器,拥有多选文件上传",
+    "keywords": ["yii2", "ckeditor", "swfupload", "bloomforyou"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?labels=ext%3Aimagine",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "authors": [
+        {
+            "name": "郭启军",
+            "email": "bloomforyou@gmail.com"
+        }
+    ],
+
+    // package dependencies
+    "require": {
+        "yiisoft/yii2": "*",    
+        "bower-asset/jquery": ">=1.11.*",  
+        "yiisoft/yii2-imagine": ">=2.0.0", 
+    },
+    
+
+    // class autoloading specs
+    "autoload": {
+        "psr-4": {
+            "ckeditor\\ckeditor\\": ""
+        }
+    },
+    
+    "extra": {
+        "bootstrap": "bloomforyou\\ckeditor\\BootstrapClass"
+    }
+}
